@@ -49,7 +49,7 @@ class myorder(models.Model):
 class myorderAdmin(admin.ModelAdmin):
     list_display=["s_no","order_id","date","category","quantity","price","paymentmethod"]
 
-
+```
 ## OUTPUT
 
 
